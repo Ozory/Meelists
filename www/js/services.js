@@ -5,7 +5,7 @@ starter.service('Alerta', function($ionicPopup){
     // Alerta padrao
     var _alert = function(message){
             $ionicPopup.alert({
-              title: 'Rekkol',
+              title: 'Meelists',
               content: message
             });
     };
@@ -13,7 +13,7 @@ starter.service('Alerta', function($ionicPopup){
     // Mensagem de Erro
     var _erro = function(message){
             $ionicPopup.alert({
-              title: 'Rekkol',
+              title: 'Meelists',
               content: message,
               buttons: [{
                   text: '<b>OK</b>',
